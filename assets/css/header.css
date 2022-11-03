@@ -42,7 +42,7 @@ nav {
   text-shadow: 0 0 20px rgb(85, 81, 81);
 }
 .sections:active {
-  color: #1b1a50;
+  color: #c5c0ff;
 }
 .right-section {
   display: flex; 
