@@ -14,7 +14,6 @@ nav {
   display: flex; 
   justify-content: left;
   position: center;
-  width: 50px;
 }
 .lazzeri-logo {
   width: 80px;
@@ -36,10 +35,11 @@ nav {
   font-size: 20px;
   cursor: pointer;
   color: #fefefe;
-  transition: color 0.3s;
+  transition: color 0.5s text-shadow 0.5s;
 }
 .sections:hover {
   color: #f9d5f3;
+  text-shadow: 0 0 20px rgb(85, 81, 81);
 }
 .sections:active {
   color: #1b1a50;
@@ -48,11 +48,12 @@ nav {
   display: flex; 
   justify-content: space-between;
   align-items: center;
-  width: 200px;
   margin-right: 30px;
 }
 .contacts {
   background-color: #1b1a50;
+  font-size: 20px;
+  cursor: pointer;
   border: none; 
   width: 140px;
   height: 40px;
@@ -60,6 +61,5 @@ nav {
   transition: color 0.5s box-shadow 0.5s;
 }
 .contacts:hover {
-  color: #fefefe;
-  box-shadow: 0 0 4px rgb(85, 81, 81);
+  box-shadow: 0 0 20px rgb(85, 81, 81);
 }

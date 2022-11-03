@@ -8,9 +8,8 @@
 }
 body {
   margin: 20px;
-  height: 3000px;
   background-color: #fefefe;
-
+  height: 5000px;
 }
 p {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -18,3 +17,4 @@ p {
 h1 {
   font-family: 'Sansita Swashed', cursive;
 }
+
