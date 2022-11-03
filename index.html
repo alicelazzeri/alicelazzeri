@@ -10,28 +10,30 @@
 
   <link rel="stylesheet" href="assets/css/general.css">
   <link rel="stylesheet" href="assets/css/header.css">
-  <link rel="stylesheet" href="assets/css/body.css">
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <link rel="stylesheet" href="assets/css/aboutme.css">
   <link rel="stylesheet" href="assets/css/footer.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;700&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+ 
 
 </head>
 <body>
 
-  <!--header-->
+  <!--Header-->
 
   <header>
     <nav class="navbar">
       <div class="left-section">
         <a href="#"> 
-          <img class="lazzeri-logo" src="assets/images/logo.png" alt="Alice Lazzeri logo">
+          <img class="lazzeri-logo" src="assets/images/logo.png" alt="My logo">
         </a>
       </div>
       <div class="middle-section">
           <a class="sections" href="#homepage">Home</a>
-          <a class="sections" href="#about">About me</a>
+          <a class="sections" href="#aboutme">About me</a>
           <a class="sections" href="#portfolio">Portfolio</a>
           <a class="sections" href="#skills">Skills</a>
       </div>
@@ -43,12 +45,14 @@
     </nav>
   </header>
 
-  <!--homepage-->
+  <!--Homepage-->
 
   <div class="intro-homepage" id="homepage">
-    <p class="introduction">Hi there! My name is <br>
-    <span class="name">Alice Lazzeri</span> <br>
-    Full Stack Development student from Tuscany, Italy.</p>
+    <div class="intro-container">
+      <p class="introduction">Hi there! My name is <br>
+        <span class="name">Alice Lazzeri</span> <br>
+        Full Stack Development student from Tuscany, Italy.</p>
+    </div>
     <div class="buttons-container">
       <button class="contact-me">
         <a class="contact-action" href="#contacts">Contact me</a>
@@ -56,6 +60,24 @@
       <button class="contact-me">
         <a class="contact-action" href="#portfolio">My portfolio</a>
       </button>
+    </div>
+  </div>
+
+  <!--About me-->
+
+  <div class="intro-aboutme" id="aboutme">
+    <h1 class="title-section">About me</h1>
+    <div class="pic-container">
+      <img class="profile-pic" src="assets/images/alice-lazzeri.png" alt="It's me">
+    </div>
+    <div class="mystory-container">
+      <p class="mystory">My name is <span class="bold-text">Alice</span> and I was born and raised in Tuscany, Italy.</p>
+      <p class="mystory">From the very childhood, <span class="bold-text">creativity</span> has always been a major feature of my personality, together with a fond love for literature, everything being driven by a strong <span class="bold-text">thrist for knowledge</span> in general.</p>
+      <p class="mystory">That’s why after graduating in English Language and Literature, I decided to explore the field of <span class="bold-text">technology</span> and <span class="bold-text">web development</span>, and discovered new languages to learn, such as HTML and CSS: I immediately fell in love with it!</p>
+      <p class="mystory">I am currently studying to become a <span class="bold-text">Full Stack Developer</span> at <a class="s2i-link"href="https://www.start2impact.it/" target="_blank">start2impact University</a>. Long story short, I am learning how to do <span class="bold-text">website programming</span>, wishing to build my own career in the digital world. </p>
+    </div>
+    <div class="button-container">
+      <button class="download-cv"><a class="download-action" href="assets/pdf/CV_Lazzeri_Alice.pdf" target="_blank">Download here my CV</a></button>
     </div>
   </div>
   

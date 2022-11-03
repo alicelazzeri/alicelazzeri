@@ -7,6 +7,9 @@
     scroll-behavior: smooth;
 }
 body {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: #fefefe;
   height: 5000px;
 }
