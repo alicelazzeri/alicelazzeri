@@ -1,0 +1,111 @@
+.intro-skills {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: #faf0f0;
+  border-radius: 50px;
+  height: 2060px;
+}
+.title-section {
+  color: #1b1a50; 
+  font-size: 55px;
+  text-align: center;
+  padding-top: 80px;
+  text-shadow: 2px 2px 10px rgb(85, 81, 81);
+}
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 480px;
+  margin-right: 480px;
+}
+.skill-container {
+  background-color: #fefefe;
+  border-radius: 30px;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: box-shadow 0.5s;
+}
+.skill-container:hover {
+  box-shadow: 0 0 20px rgb(51, 13, 113);
+}
+.logo-pic {
+  width: 50px;
+  height: auto;
+  display: inline-block;
+  object-fit: contain;
+}
+.html-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f06529;
+}
+.css-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #264de4;
+}
+.bootstrap-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #6c48d4;
+}
+.sass-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #cd6799;
+}
+.github-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+.canva-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #20c4cb;
+}
+.skills-description {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+.skills-pic-container {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.skills-pic {
+  width: 150px;
+  height: 150px;
+}
+.howcanihelp-container {
+  background-color: #fefefe;
+  border-radius: 30px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: box-shadow 0.5s;
+}
+.howcanihelp-container:hover {
+  box-shadow: 0 0 20px rgb(51, 13, 113);
+}
+.howcanihelp-description {
+  font-size: 20px;
+  padding: 30px;
+  align-items: center;
+}
