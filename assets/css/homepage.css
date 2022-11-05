@@ -10,13 +10,15 @@
   background-position: center;
   background-attachment: fixed;
   text-align: center;
+  border-bottom-style: ridge;
+  border-bottom-color: #fefefe;
+  border-bottom-width: 2px;
 }
 .intro-container {
   text-align: center;
   margin-top: 100px;
   padding-left: 200px;
   padding-right: 200px;
- 
 }
 .introduction {
   font-size: 45px;
@@ -38,6 +40,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  padding: 30px;
 }
 .contact-me {
   margin-top: 90px;

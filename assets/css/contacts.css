@@ -1,0 +1,85 @@
+.intro-contacts {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: #faf0f0;
+  border-radius: 50px;
+  width: 1200px;
+  height: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.contacts-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 900px;
+  
+}
+.contactme {
+  font-size: 20px;
+}
+.contactme-title {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 40px;
+  color: #c5c0ff;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+input, textarea {
+  color: #000000;
+  background-color: #fefefe;
+  float: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 600px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 5px rgb(85, 81, 81);
+  transition: box-shadow 0.5s;
+}
+input:hover, textarea:hover {
+  box-shadow: 0 0 20px rgb(51, 13, 113);
+}
+textarea {
+  overflow: hidden;
+}
+.contact-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+.send {
+  background-color: #1b1a50;
+  cursor: pointer;
+  border: none; 
+  width: 200px;
+  height: 60px;
+  padding: 15px;
+  border-radius: 20px;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 20px;
+  color: #fefefe;
+  text-align: center;
+  transition: color 0.5s box-shadow 0.5s;
+}
+.send:hover {
+  color: #f9d5f3;
+  box-shadow: 0 0 20px rgb(85, 81, 81);
+}
+.send:active {
+  color: #c5c0ff;
+}
+
+

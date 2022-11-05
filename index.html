@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +21,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;700&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
- 
 
 </head>
 <body>
@@ -30,7 +30,7 @@
   <header>
     <nav class="navbar">
       <div class="left-section">
-        <a href="#"> 
+        <a href="#homepage"> 
           <img class="lazzeri-logo" src="assets/images/logo.png" alt="My logo">
         </a>
       </div>
@@ -41,9 +41,11 @@
           <a class="sections" href="#skills">Skills</a>
       </div>
       <div class="right-section">
-        <button class="contacts">
-          <a class="sections" href="#contacts">Contacts</a>
-        </button>
+        <div class="contacts-button-container">
+          <button class="contacts">
+            <a class="sections" href="#contacts">Contacts</a>
+          </button>
+        </div>
       </div>
     </nav>
   </header>
@@ -111,7 +113,7 @@
         <p class="css-text">CSS</p>
       </div>
       <div class="skill-container">
-        <img class="logo-pic" src="assets/images/bootstrap-logo.png" alt="Bootstrap logo">
+        <img class="logo-pic bootstrap-pic" src="assets/images/bootstrap-logo.png" alt="Bootstrap logo">
         <p class="bootstrap-text">BOOTSTRAP</p>
       </div>
       <div class="skill-container">
@@ -145,6 +147,31 @@
     </div>
   </div>
   
- 
+  <!--Contacts-->
+
+  <div class="intro-contacts" id="contacts">
+    <h1 class="title-section">Contacts</h1>
+    <div class="contacts-container">
+      <p class="contactme"><span class="contactme-title">Let's get in touch!</span> <br><br>
+      If you want to work with me, I’ll be glad to hear your proposals: fill in the form down below. I can’t wait to create something marvellous with you!</p>
+    </div>
+    <div class="contact-form">
+      <form class="contact" action="mailto:alice.lazzeri@hotmail.it" method="post" enctype="multipart/form-data" name="EmailForm">
+        <input type="text" name="contact- name" placeholder="Your first and last name" required>
+        <input type="email" name="contact-email" placeholder="Your email" required>
+        <input type="text" name="location" placeholder="Your location" required>
+        <textarea name="contact-message" cols="30" rows="10" placeholder="Type your message here" required></textarea>
+        <div class="contact-buttons">
+          <input class="send" type="submit" name="submit" value="Submit">
+          <button class="send" type="reset" class="btn btn-primary">Reset</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!--Footer-->
+
+
+
 </body>
 </html>
