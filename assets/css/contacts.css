@@ -16,10 +16,10 @@
   margin-right: auto;
   text-align: center;
   width: 900px;
-  
 }
 .contactme {
   font-size: 20px;
+  line-height: 40px;
 }
 .contactme-title {
   font-family: 'Sansita Swashed', cursive;
@@ -82,4 +82,57 @@ textarea {
   color: #c5c0ff;
 }
 
+/* Media queries */
+
+/* Mobile style */
+
+@media screen and (max-width: 576px) {
+  
+  .intro-contacts {
+    width: 480px;
+    height: 970px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .contacts-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+  }
+  .contactme {
+    font-size: 15px;
+  }
+  .contactme-title {
+    font-size: 25px;
+  }
+  input, textarea {
+    font-size: 12px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  input {
+    height: 50px;
+  }
+  textarea {
+    height: 200px;
+  }
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .send {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+ 
+}
 

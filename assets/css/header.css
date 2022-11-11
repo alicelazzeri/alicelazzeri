@@ -7,11 +7,13 @@ nav {
   left: 0;
   right: 0;
   bottom: 100;
+  padding-bottom: 10px;
   z-index: 100;
   background-color: #c5c0ff;
   border-bottom-color: #fefefe;
   border-bottom-style: ridge;
   border-bottom-width: 2px;
+  opacity: 0.90;
 }
 .left-section {
   display: flex; 
@@ -19,34 +21,48 @@ nav {
   position: center;
 }
 .lazzeri-logo {
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-  margin-top: 10px;
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  float: left;
+  margin-top: 25px;
   margin-bottom: 10px;
   margin-right: 10px;
   margin-left: 30px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-color: #fefefe;
+  transition: box-shadow 0.5s;
+}
+.lazzeri-logo:hover {
   box-shadow: 2px 2px 10px rgb(51, 13, 113);
 }
-.middle-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 650px;
+.menu {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
 }
 .sections {
+  display: block;
+  text-align: right;
   font-family: 'Sansita Swashed', cursive;
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
   color: #fefefe;
   padding: 30px;
   transition: color 0.5s text-shadow 0.5s;
 }
 .sections:hover {
+  background-color:rgba(51, 13, 113, 0.1);
+  width: 500px;
+  text-align: right;
   color: #f9d5f3;
+  border-left-color: #1b1a50;
+  border-left-width: 3px;
+  border-left-style: solid;
   text-shadow: 0 0 20px rgb(85, 81, 81);
 }
 .sections:active {
@@ -56,18 +72,115 @@ nav {
   display: flex; 
   justify-content: space-between;
   align-items: center;
-  margin-right: 30px;
 }
-.contacts {
-  background-color: #1b1a50;
-  font-size: 20px;
+.menu-icon {
+  padding: 30px;
+  position: relative;
+  float: right;
   cursor: pointer;
-  border: none; 
-  width: 140px;
-  height: 40px;
-  border-radius: 15px;
-  transition: color 0.5s box-shadow 0.5s;
 }
-.contacts:hover {
-  box-shadow: 0 0 20px rgb(85, 81, 81);
+.nav-icon {
+  background-color: #fefefe;
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 2px;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 30px;
+  transition: background-color 0.5s ease-out;
 }
+.nav-icon::before {
+  background-color: #fefefe;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 2px;
+  position: relative;
+  transition: all 0.5s ease-out;
+  top: 10.5px;
+}
+.nav-icon::after {
+  background-color: #fefefe;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 2px;
+  position: relative;
+  transition: all 0.5s ease-out;
+  top: -15px;
+}
+.menu-button {
+  display: none;
+}
+.menu-button:checked ~ .menu {
+  max-height: 600px;
+}
+.menu-button:checked ~ .menu-icon .nav-icon {
+  background-color: transparent;
+}
+.menu-button:checked ~.menu-icon .nav-icon::before {
+  transform: rotate(-45deg);
+  top: 2px;
+}
+.menu-button:checked ~ .menu-icon .nav-icon::after {
+  transform: rotate(45deg);
+  top: -1px;
+}
+
+/* Media queries */
+
+/* Mobile style */
+
+@media screen and (max-width: 576px) {
+
+  nav {
+    padding-bottom: 0;
+    width: 100%;
+  }
+  .lazzeri-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .nav-icon,
+  .nav-icon::after,
+  .nav-icon::before {
+    width: 15px;
+    height: 2px;
+  }
+  .nav-icon::after {
+    top: -7px;
+  }
+  .nav-icon::before {
+    top: 5.25px;
+  }
+  .menu-button:checked ~.menu-icon .nav-icon::before {
+    transform: rotate(-45deg);
+    top: 1px;
+  }
+  .menu-button:checked ~ .menu-icon .nav-icon::after {
+    transform: rotate(45deg);
+    top: -1px;
+  }
+  .sections {
+    font-size: 20px;
+  }
+  .sections:hover {
+    width: 160px;
+  }
+
+}
+
+/* Tablet style */
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  
+}
+  
+
+

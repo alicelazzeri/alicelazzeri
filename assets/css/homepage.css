@@ -70,3 +70,54 @@
   color: #c5c0ff;
 }
 
+/* Media queries */
+
+/* Mobile style */
+
+@media screen and (max-width: 576px) {
+
+  .intro-homepage {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/pc-flowers-vertical.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .intro-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin-top: 30px;
+    height: 200px;
+  }
+  .introduction {
+    font-size: 20px;
+    line-height: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .buttons-container {
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 80px;
+  }
+  .contact-me { 
+    margin-top: 10px;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .contact-action {
+    font-size: 20px;
+  }
+
+}
+

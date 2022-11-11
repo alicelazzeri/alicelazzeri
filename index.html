@@ -30,21 +30,25 @@
   <header>
     <nav class="navbar">
       <div class="left-section">
-        <a href="#homepage"> 
-          <img class="lazzeri-logo" src="assets/images/logo.png" alt="My logo">
-        </a>
-      </div>
-      <div class="middle-section">
-          <a class="sections" href="#homepage">Home</a>
-          <a class="sections" href="#aboutme">About me</a>
-          <a class="sections" href="#portfolio">Portfolio</a>
-          <a class="sections" href="#skills">Skills</a>
+        <div class="logo-container">
+          <a href="#homepage"> 
+            <img class="lazzeri-logo" src="assets/images/logo.png" alt="My logo">
+          </a>
+        </div>
       </div>
       <div class="right-section">
-        <div class="contacts-button-container">
-          <button class="contacts">
-            <a class="sections" href="#contacts">Contacts</a>
-          </button>
+        <div class="hamburger-container">
+          <input class="menu-button" id="menu-button" type="checkbox">
+          <label for="menu-button" class="menu-icon">
+              <span class="nav-icon"></span>
+          </label>
+          <ul class="menu">
+            <li><a class="sections" href="#homepage">Home</a></li>
+            <li><a class="sections" href="#aboutme">About me</a></li>
+            <li><a class="sections" href="#portfolio">Portfolio</a></li>
+            <li><a class="sections" href="#skills">Skills</a></li>
+            <li><a class="sections" href="#contacts">Contacts</a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -52,7 +56,7 @@
 
   <!--Homepage-->
 
-  <div class="intro-homepage" id="homepage">
+  <section class="intro-homepage" id="homepage">
     <div class="intro-container">
       <p class="introduction">Hi there! <br>
         My name is <br>
@@ -67,11 +71,11 @@
         <a class="contact-action" href="#portfolio">My portfolio</a>
       </button>
     </div>
-  </div>
+  </section>
 
   <!--About me-->
 
-  <div class="intro-aboutme" id="aboutme">
+  <section class="intro-aboutme" id="aboutme">
     <h1 class="title-section">About me</h1>
     <div class="pic-container">
       <img class="profile-pic" src="assets/images/alice-lazzeri.png" alt="It's me">
@@ -85,24 +89,24 @@
     <div class="button-container">
       <button class="download-cv"><a class="download-action" href="assets/pdf/CV_Lazzeri_Alice.pdf" target="_blank">Download here my CV</a></button>
     </div>
-  </div>
+  </section>
   
   <!--Portfolio-->
 
-  <div class="intro-portfolio" id="portfolio">
+  <section class="intro-portfolio" id="portfolio">
     <h1 class="title-section">Portfolio</h1>
     <div class="pic-container">
       <img class="loading" src="assets/images/kitty.gif" alt="Loading">
     </div>
     <div class="workinprog-container">
-      <p class="workinprog"><span class="workinprog-title">Work in progress!</span> <br> 
+      <p class="workinprog"><span class="workinprog-title">Work in progress!</span> <br><br> 
       The Portfolio section is still in the making. Come back later to learn more about my work!</p>
     </div>
-  </div>
+  </section>
 
   <!--Skills-->
 
-  <div class="intro-skills" id="skills">
+  <section class="intro-skills" id="skills">
     <h1 class="title-section">Skills</h1>
     <div class="skills-container">
       <div class="skill-container">
@@ -130,7 +134,7 @@
         <p class="canva-text">CANVA</p>
       </div>
     </div>
-    <h1 class="title-section">How can I help?</h1>
+    <h1 class="title-section howcanihelp-title">How can I help?</h1>
     <p class="skills-description">The skills I have recently achieved allow me to create and edit websites through coding mainly with HTML and CSS languages.</p>
     <div class="skills-pic-container">
       <img class="skills-pic" src="assets/images/coding.png" alt="Coding">
@@ -146,11 +150,11 @@
       <p class="howcanihelp-description"><strong>Website restyling</strong></p>
       <p class="howcanihelp-description">Makeover of websites already online.</p>
     </div>
-  </div>
+  </section>
   
   <!--Contacts-->
 
-  <div class="intro-contacts" id="contacts">
+  <section class="intro-contacts" id="contacts">
     <h1 class="title-section">Contacts</h1>
     <div class="contacts-container">
       <p class="contactme"><span class="contactme-title">Let's get in touch!</span> <br><br>
@@ -168,7 +172,7 @@
         </div>
       </form>
     </div>
-  </div>
+  </section>
 
   <!--Footer-->
 
@@ -198,3 +202,6 @@
   </footer>
 </body>
 </html>
+
+
+

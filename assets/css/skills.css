@@ -4,7 +4,7 @@
   background-color: #faf0f0;
   border-radius: 50px;
   width: 1200px;
-  height: 2090px;
+  height: 2200px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -39,7 +39,6 @@
 .logo-pic {
   width: 50px;
   height: auto;
-  display: inline-block;
   object-fit: contain;
 }
 .bootstrap-pic {
@@ -75,6 +74,9 @@
   font-weight: bold;
   color: #20c4cb;
 }
+.howcanihelp-title {
+  padding-top: 90px;
+}
 .skills-description {
   font-size: 20px;
   text-align: center;
@@ -82,6 +84,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 800px;
+  line-height: 40px;
 }
 .skills-pic-container {
   text-align: center;
@@ -91,6 +94,7 @@
 .skills-pic {
   width: 150px;
   height: 150px;
+  object-fit: cover;
 }
 .howcanihelp-container {
   background-color: #fefefe;
@@ -110,4 +114,75 @@
   font-size: 20px;
   padding: 30px;
   align-items: center;
+}
+
+/* Media queries */
+
+/* Mobile style */
+
+@media screen and (max-width: 576px) {
+  .intro-skills {
+    width: 480px;
+    height: 1610px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .skill-container {
+    border-radius: 15px;
+    width: 230px;
+    height: 50px;
+    justify-content: space-evenly;
+  }
+  .logo-pic {
+    width: 35px;
+  }
+  .html-text,
+  .css-text,
+  .bootstrap-text,
+  .sass-text,
+  .github-text,
+  .canva-text {
+    font-size: 15px;
+  }
+  .howcanihelp-title {
+    padding-top: 45px;
+
+  }
+  .skills-description {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+  }
+  .skills-pic-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .skills-pic {
+    width: 90px;
+    height: 90px;
+  }
+  .howcanihelp-container {
+    border-radius: 15px;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  .howcanihelp-description {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+  }
+
 }

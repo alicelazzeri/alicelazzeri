@@ -1,8 +1,8 @@
 footer {
-  margin-top: 90px;
+  margin-top: 20px;
+  opacity: 0.90;
 }
 .footer-container {
-  position: relative; 
   top: 0;
   left: 0;
   right: 0;
@@ -12,6 +12,7 @@ footer {
   border-top-color: #fefefe;
   border-top-style: ridge;
   border-top-width: 2px;
+  position: relative;
 }
 .social-icons {
   display: flex;
@@ -20,8 +21,6 @@ footer {
   align-items: center;
 }
 .icon {
-  width: 50px;
-  height: 50px;
   object-fit: contain;
   position: relative;
   padding: 10px;
@@ -44,9 +43,6 @@ footer {
 .linkedin-icon {
   width: 48px;
 }
-.discord-icon {
-  width: 50px;
-}
 .github-icon {
   width: 50px;
 }
@@ -63,4 +59,38 @@ footer {
   color: #fefefe;
 }
 
+/* Media queries */
+
+/* Mobile style */
+
+@media screen and (max-width: 576px) {
+  
+  footer {
+    padding-top: 0;
+    width: 100%;
+  }
+  .icon {
+    padding: 5px;
+  }
+  .icon:hover {
+    border-radius: 3px;
+  }
+  .icon:active {
+    border-radius: 3px;
+  }
+  .facebook-icon,
+  .instagram-icon,
+  .linkedin-icon,
+  .github-icon,
+  .outlook-icon {
+    width: 30px;
+  }
+  .copyright-container {
+    margin-top: 5px;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+  
+}
   
