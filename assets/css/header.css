@@ -1,3 +1,5 @@
+/* Desktop style */
+
 nav {
   display: flex;
   flex-direction: row;
@@ -178,8 +180,43 @@ nav {
 
 /* Tablet style */
 
-@media screen and (min-width: 768px) and (max-width: 960px) {
-  
+@media screen and (min-width: 577px) and (max-width: 960px) {
+
+  nav {
+    padding-bottom: 0;
+    width: 100%;
+  }
+  .lazzeri-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+  }
+  .nav-icon,
+  .nav-icon::after,
+  .nav-icon::before {
+    width: 25px;
+    height: 2px;
+  }
+  .nav-icon::after {
+    top: -10px;
+  }
+  .nav-icon::before {
+    top: 8px;
+  }
+  .menu-button:checked ~.menu-icon .nav-icon::before {
+    transform: rotate(-45deg);
+    top: 1px;
+  }
+  .menu-button:checked ~ .menu-icon .nav-icon::after {
+    transform: rotate(45deg);
+    top: -1px;
+  }
+  .sections {
+    font-size: 25px;
+  }
+  .sections:hover {
+    width: 300px;
+  }
 }
   
 

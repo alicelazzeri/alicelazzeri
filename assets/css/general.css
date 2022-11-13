@@ -1,3 +1,5 @@
+/* Desktop style */
+
 * {
   padding: 0;
   margin: 0;
@@ -36,6 +38,17 @@ h1 {
     padding: 5px;
     margin-top: 30px;
   }
-  
+
 }
 
+/* Tablet style */
+
+@media screen and (min-width: 577px) and (max-width: 960px) {
+
+  .title-section {
+    font-size: 45px;
+    padding: 7px;
+    margin-top: 45px;
+  }
+
+}

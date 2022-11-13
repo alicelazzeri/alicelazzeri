@@ -1,3 +1,5 @@
+/* Desktop style */
+
 .intro-contacts {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -87,7 +89,7 @@ textarea {
 /* Mobile style */
 
 @media screen and (max-width: 576px) {
-  
+
   .intro-contacts {
     width: 480px;
     height: 970px;
@@ -101,6 +103,7 @@ textarea {
   }
   .contactme {
     font-size: 15px;
+    line-height: 35px;
   }
   .contactme-title {
     font-size: 25px;
@@ -136,3 +139,55 @@ textarea {
  
 }
 
+/* Tablet style */
+
+@media screen and (min-width: 577px) and (max-width: 960px) {
+
+  .intro-contacts {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 600px;
+    height: 1320px;
+  }
+  .contacts-container {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 500px;
+  }
+  .contactme {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .contactme-title {
+    font-size: 30px;
+  }
+  input, textarea {
+    font-size: 15px;
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 500px;
+    border-radius: 10px;
+  }
+  input {
+    height: 70px;
+  }
+  textarea {
+    height: 350px;
+  }
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .send {
+    width: 200px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 18px;
+  }
+  
+}

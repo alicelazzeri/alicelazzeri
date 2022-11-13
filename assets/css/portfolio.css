@@ -1,3 +1,5 @@
+/* Desktop style */
+
 .intro-portfolio {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -40,7 +42,7 @@
 /* Mobile style */
 
 @media screen and (max-width: 576px) {
-  
+
   .intro-portfolio {
     width: 480px;
     height: 490px;
@@ -68,4 +70,37 @@
     line-height: 30px;
   }
 
+}
+
+/* Tablet style */
+
+@media screen and (min-width: 577px) and (max-width: 960px) {
+
+  .intro-portfolio {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 600px;
+    height: 650px;
+  }
+  .pic-container {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .loading {
+    width: 300px;
+  }
+  .workinprog-container {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 45px;
+    margin-left: 45px;
+  }
+  .workinprog-title {
+    font-size: 30px;
+  }
+  .workinprog {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  
 }

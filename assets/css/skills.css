@@ -1,3 +1,5 @@
+/* Desktop style */
+
 .intro-skills {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -121,6 +123,7 @@
 /* Mobile style */
 
 @media screen and (max-width: 576px) {
+
   .intro-skills {
     width: 480px;
     height: 1610px;
@@ -154,7 +157,6 @@
   }
   .howcanihelp-title {
     padding-top: 45px;
-
   }
   .skills-description {
     font-size: 15px;
@@ -185,4 +187,71 @@
     margin: auto;
   }
 
+}
+
+/* Tablet style */
+
+@media screen and (min-width: 577px) and (max-width: 960px) {
+
+  .intro-skills {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 600px;
+    height: 2180px;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .skill-container {
+    justify-content: space-evenly;
+  }
+  .logo-pic {
+    width: 40px;
+  }
+  .html-text,
+  .css-text,
+  .bootstrap-text,
+  .sass-text,
+  .github-text,
+  .canva-text {
+    font-size: 18px;
+  }
+  .howcanihelp-title {
+    padding-top: 60px;
+  }
+  .skills-description {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+  }
+  .skills-pic-container {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+  .skills-pic {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+  }
+  .howcanihelp-container {
+    border-radius: 15px;
+    width: 450px;
+    height: 150px;
+    margin-bottom: 55px;
+  }
+  .howcanihelp-description {
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+  }
+ 
 }
