@@ -15,7 +15,7 @@
 
   <link rel="stylesheet" href="assets/css/general.css">
   <link rel="stylesheet" href="assets/css/header.css">
-  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/contacts.css">
   <link rel="stylesheet" href="assets/css/footer.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,25 +54,28 @@
     </nav>
   </header>
 
-  <!--Homepage-->
+  <!--Contacts-->
 
-  <section class="intro-homepage" id="homepage">
-    <div class="intro-container">
-      <p class="introduction">Hi there! <br>
-        My name is <br>
-        <span class="name">Alice Lazzeri</span> <br>
-        Full Stack Development student from Tuscany, Italy</p>
+  <section class="intro-contacts" id="contacts">
+    <h1 class="title-section">Contacts</h1>
+    <div class="contacts-container">
+      <p class="contactme"><span class="contactme-title">Let's get in touch!</span> <br><br>
+      If you want to work with me, I’ll be glad to hear your proposals: fill in the form down below. I can’t wait to create something marvellous with you!</p>
     </div>
-    <div class="buttons-container">
-      <button class="contact-me">
-        <a class="contact-action" href="contacts.html">Contact me</a>
-      </button>
-      <button class="contact-me">
-        <a class="contact-action" href="portfolio.html">My portfolio</a>
-      </button>
+    <div class="contact-form">
+      <form class="contact" action="mailto:alice.lazzeri@hotmail.it" method="post" enctype="multipart/form-data" name="EmailForm">
+        <input type="text" name="contact- name" placeholder="Your first and last name" required>
+        <input type="email" name="contact-email" placeholder="Your email" required>
+        <input type="text" name="location" placeholder="Your location" required>
+        <textarea name="contact-message" cols="30" rows="10" placeholder="Type your message here" required></textarea>
+        <div class="contact-buttons">
+          <input class="send" type="submit" name="submit" value="Submit">
+          <button class="send" type="reset" class="btn btn-primary">Reset</button>
+        </div>
+      </form>
     </div>
   </section>
-
+  
   <!--Footer-->
 
   <footer>
@@ -96,6 +99,6 @@
       </div>
     </div>
   </footer>
-
-  </body>
-  </html>
+  
+</body>
+</html>
