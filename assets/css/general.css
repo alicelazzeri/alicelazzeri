@@ -10,7 +10,7 @@
 }
 body {
   background-color: #d0ddff;
-  height: 5000px;
+  height: 1000px;
 }
 p {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -33,6 +33,11 @@ h1 {
 
 @media screen and (max-width: 576px) {
 
+  body {
+    background-color: #d0ddff;
+    height: 700px;
+  }
+
   .title-section {
     font-size: 35px;
     padding: 5px;
@@ -44,6 +49,11 @@ h1 {
 /* Tablet style */
 
 @media screen and (min-width: 577px) and (max-width: 960px) {
+
+  body {
+    background-color: #d0ddff;
+    height: 900px;
+  }
 
   .title-section {
     font-size: 45px;

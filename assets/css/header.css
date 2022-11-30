@@ -63,9 +63,6 @@ nav {
   width: 500px;
   text-align: right;
   color: #f9d5f3;
-  border-left-color: #1b1a50;
-  border-left-width: 3px;
-  border-left-style: solid;
   text-shadow: 0 0 20px rgb(85, 81, 81);
 }
 .sections:active {

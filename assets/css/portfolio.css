@@ -1,7 +1,7 @@
 /* Desktop style */
 
 .intro-portfolio {
-  margin-top: 80px;
+  margin-top: 150px;
   margin-bottom: 80px;
   background-color: #faf0f0;
   border-radius: 50px;
@@ -45,8 +45,8 @@
 
   .intro-portfolio {
     width: 100%;
-    height: 490px;
-    margin-top: 40px;
+    height: 480px;
+    margin-top: 150px;
     margin-bottom: 40px;
   }
   .pic-container {
@@ -77,10 +77,10 @@
 @media screen and (min-width: 577px) and (max-width: 960px) {
 
   .intro-portfolio {
-    margin-top: 55px;
+    margin-top: 150px;
     margin-bottom: 55px;
     width: 100%;
-    height: 650px;
+    height: 630px;
   }
   .pic-container {
     margin-top: 50px;
