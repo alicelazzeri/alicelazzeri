@@ -1,0 +1,382 @@
+/* Desktop style */
+
+.intro-curriculum {
+  margin-top: 150px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 2930px;
+  background-color: #faf0f0;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.frame {
+  position: relative;
+  top: 30px;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  border-radius: 10px; 
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fefefe;   
+  background: #d0ddff;
+  color: white;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgb(85, 81, 81);
+}
+.pre-container {
+  text-align: center;
+  margin-top: 60px;
+}
+.pre {
+  font-size: 30px;
+  font-weight: bold;
+}
+.element {
+  font-size: 50px;
+  font-family: 'Sansita Swashed', cursive;
+  color: #f9d5f3;
+  line-height: 200px;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgb(85, 81, 81);
+}
+.carousel {
+  animation: carousel 8s ease-in-out infinite;
+}
+
+@keyframes carousel {
+
+  0%, 20% {
+      transform: translateY(0);
+  }
+  25%, 45% {
+      transform: translateY(-200px)
+  }
+  50%, 70% {
+      transform: translateY(-400px)
+  }
+  75%, 95% {
+      transform: translateY(-600px)
+  }
+  100% {
+      transform: translateY(-800px)
+  }
+
+}
+
+.whoiam-container {
+  margin-top: 100px;
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-left: 20px;
+}
+.whoiam {
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  padding-right: 10px;
+}
+.sub-title {
+  color: #c5c0ff; 
+  font-size: 45px;
+  font-family: "Sansita Swashed", cursive;
+  text-align: center;
+  padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.languages {
+  margin-top: 50px;
+}
+.study-path-right {
+  text-align: right;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-right-color: #1b1a50;
+}
+.study-path-left {
+  text-align: left;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #1b1a50;
+}
+.study-path-right, 
+.study-path-left {
+  margin: 100px;
+  padding: 15px;
+  background-color: #d0ddff;
+  opacity: 0.9;
+}
+.when {
+  color: #b2b2b2;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+.where {
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+}
+.what {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 40px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 80px;
+}
+.download-cv {
+  background-color: #1b1a50;
+  cursor: pointer;
+  border: none; 
+  width: 350px;
+  height: 80px;
+  border-radius: 30px;
+  transition: color 0.5s box-shadow 0.5s;
+}
+.download-cv:hover {
+  box-shadow: 0 0 20px rgb(85, 81, 81);
+}
+.download-action {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 25px;
+  color: #fefefe;
+  text-align: center;
+  transition: color 0.5s text-shadow 0.5s;
+}
+.download-action:hover {
+  color: #f9d5f3;
+  text-shadow: 0 0 20px rgb(85, 81, 81);
+}
+.download-action:active {
+  color: #c5c0ff;
+}
+.contact-info-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+}
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  background-color: #d0ddff;
+  padding: 20px;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+.contact-text {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fefefe;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgb(85, 81, 81);
+}
+.contact-picture {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+/* Media queries */
+
+/* Mobile style */
+
+@media screen and (max-width: 576px) {
+
+  .intro-curriculum {
+    width: 100%;
+    height: 2650px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+  }
+  .frame {
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px; 
+  }
+  .pre-container {
+    margin-top: 30px;
+  }
+  .pre {
+    font-size: 18px;
+  }
+  .element {
+    font-size: 30px;
+    line-height: 100px;
+  }
+  .whoiam-container {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 10px;
+  }
+  .whoiam {
+    font-size: 15px;
+    line-height: 40px;
+    padding-right: 5px;
+  }
+  .sub-title {
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  .languages {
+    margin-top: 25px;
+  }
+  .study-path-right, 
+  .study-path-left {
+    margin: 50px;
+    padding: 15px;
+  }
+  .when {
+    font-size: 15px;
+  }
+  .where {
+    font-size: 18px;
+  }
+  .what {
+    font-size: 14px;
+  }
+  .download-cv {
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+  }
+  .download-action {
+    font-size: 20px;
+  }
+  .contact-info-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .contact-container {
+    padding: 10px;
+    margin-top: 55px;
+    justify-content: center;
+    width: 250px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contact-text {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .contact-picture {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Tablet style */
+
+@media screen and (min-width: 577px) and (max-width: 960px) {
+
+  .intro-curriculum {
+    width: 100%;
+    height: 2750px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+  }
+  .frame {
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px; 
+  }
+  .pre-container {
+    margin-top: 30px;
+  }
+  .pre {
+    font-size: 20px;
+  }
+  .element {
+    font-size: 40px;
+    line-height: 100px;
+  }
+  .whoiam-container {
+    margin-top: 70px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-left: 10px;
+  }
+  .whoiam {
+    font-size: 18px;
+    line-height: 40px;
+    padding-right: 8px;
+  }
+  .sub-title {
+    font-size: 40px;
+    padding: 8px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+  }
+  .languages {
+    margin-top: 35px;
+  }
+  .study-path-right, 
+  .study-path-left {
+    margin: 50px;
+    padding: 15px;
+  }
+  .when {
+    font-size: 18px;
+  }
+  .where {
+    font-size: 20px;
+  }
+  .what {
+    font-size: 15px;
+  }
+  .download-cv {
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+  }
+  .download-action {
+    font-size: 22px;
+  }
+  .contact-info-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .contact-container {
+    padding: 15px;
+    margin-top: 80px;
+    justify-content: center;
+    width: 450px;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contact-text {
+    font-size: 25px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .contact-picture {
+    width: 20px;
+    height: 20px;
+  }
+
+}
