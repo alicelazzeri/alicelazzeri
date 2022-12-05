@@ -282,6 +282,10 @@
     width: 20px;
     height: 20px;
   }
+  .cta {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
 }
 
 /* Tablet style */
