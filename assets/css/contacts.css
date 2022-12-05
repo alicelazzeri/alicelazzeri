@@ -104,6 +104,8 @@ textarea {
   .contactme {
     font-size: 15px;
     line-height: 35px;
+    margin-right: 80px;
+    margin-left: 80px;
   }
   .contactme-title {
     font-size: 25px;
@@ -114,7 +116,7 @@ textarea {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    width: 400px;
+    width: 300px;
     border-radius: 5px;
   }
   input {
