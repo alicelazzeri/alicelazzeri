@@ -162,8 +162,8 @@
     font-size: 15px;
     text-align: center;
     margin-top: 40px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
     width: 300px;
   }
   .skills-pic-container {
