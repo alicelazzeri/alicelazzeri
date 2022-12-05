@@ -153,6 +153,9 @@
     font-size: 18px;
     line-height: 35px;
   }
+  .button-container {
+    margin-top: 50px;
+  }
   .download-cv {
     width: 300px;
     height: 60px;
