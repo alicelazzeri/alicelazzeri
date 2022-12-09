@@ -46,26 +46,6 @@
   animation: carousel 10s ease-in-out;
 }
 
-@-webkit-keyframes carousel {
-
-  0%, 20% {
-      transform: translateY(0);
-  }
-  25%, 45% {
-      transform: translateY(2005px)
-  }
-  50%, 70% {
-      transform: translateY(-400px)
-  }
-  75%, 95% {
-      transform: translateY(-600px)
-  }
-  100% {
-      transform: translateY(-800px)
-  }
-
-}
-
 @keyframes carousel {
 
   0%, 20% {
