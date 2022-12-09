@@ -43,7 +43,7 @@
   text-shadow: 2px 2px 10px rgb(85, 81, 81);
 }
 .carousel {
-  animation: carousel 10s ease-in-out infinite;
+  animation: carousel 10s ease-in-out;
 }
 
 @keyframes carousel {
