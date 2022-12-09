@@ -52,16 +52,16 @@
       transform: translateY(0);
   }
   25%, 45% {
-      transform: translateY(-45px)
+      transform: translateY(2005px)
   }
   50%, 70% {
-      transform: translateY(-90px)
+      transform: translateY(-400px)
   }
   75%, 95% {
-      transform: translateY(-135px)
+      transform: translateY(-600px)
   }
   100% {
-      transform: translateY(-180px)
+      transform: translateY(-800px)
   }
 
 }
@@ -72,16 +72,16 @@
       transform: translateY(0);
   }
   25%, 45% {
-      transform: translateY(-45px)
+      transform: translateY(-200px)
   }
   50%, 70% {
-      transform: translateY(-90px)
+      transform: translateY(-400px)
   }
   75%, 95% {
-      transform: translateY(-135px)
+      transform: translateY(-600px)
   }
   100% {
-      transform: translateY(-180px)
+      transform: translateY(-800px)
   }
 
 }
