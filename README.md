@@ -1,4 +1,4 @@
-                   # Hi there! 👋🏻 I'm Alice! 🌸 
+# Hi there! 👋🏻 I'm Alice! 🌸 
 
 Junior Front End Developer from Tuscany, Italy 🍇 💻
 
