@@ -6,7 +6,6 @@ Currently studying UX/UI design 👩🏼‍💻 🎨
 
 Check out my Portfolio here: https://alicelazzeri.netlify.app/ 
 
-<br/>
 LinkedIn: https://www.linkedin.com/in/alice-lazzeri-6605b4102/
 
 **Skills**:
