@@ -1,11 +1,5 @@
 # Hi there! 👋🏻 I'm Alice! 🌸 
 
-🇬🇧
-<p>I am a junior frontend web developer with a strong background in designing and developing modern and engaging user interfaces. I have a deep understanding of <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, as well as extensive experience using frameworks like <strong>React.js</strong>. I have demonstrated the ability to individually work on complex projects, quickly adapt to new technologies, and effectively collaborate with multidisciplinary teams. <br> My linguistic experience has provided me with a unique perspective on the importance of intuitive design and a seamless user experience. I am passionate about the idea of transforming complex concepts into accessible and user-friendly solutions, leveraging my creativity to create websites that are not only aesthetically pleasing but also functional and effective, thanks to the use of libraries and preprocessors like <strong>Bootstrap</strong> and <strong>SASS</strong>.</p>
-🇮🇹
-<p> <em>Sono una frontend web developer con una solida esperienza in progettazione e sviluppo di interfacce utente moderne e coinvolgenti. Ho una conoscenza approfondita di <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, oltre a una vasta esperienza nell'utilizzo di framework come <strong>React.js</strong>. Ho dimostrato capacità di lavorare su progetti complessi, adattarmi rapidamente alle nuove tecnologie e collaborare in modo efficace con team multidisciplinari. La mia esperienza linguistica mi ha fornito una prospettiva unica nel comprendere l'importanza di un design intuitivo e di un'esperienza utente fluida: mi appassiona l'idea di poter trasformare concetti complessi in soluzioni accessibili e user-friendly, mettendo in pratica la mia creatività per creare siti web che non solo siano esteticamente piacevoli, ma anche funzionali ed efficaci, grazie anche all’impiego di librerie e preprocessori come <strong>Bootstrap</strong> and <strong>SASS</strong>.</em></p>
-<hr>
-
 💾 Junior Front End Developer from Tuscany, Italy 🍇 💻
 
 📚 Currently studying UX/UI design 👩🏼‍💻 🎨
@@ -37,6 +31,13 @@
 
 <p>... and still learning more! 💡✨</p>
 <hr>
+
+🇬🇧
+<p>I am a junior frontend web developer with a strong background in designing and developing modern and engaging user interfaces. I have a deep understanding of <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, as well as extensive experience using frameworks like <strong>React.js</strong>. I have demonstrated the ability to individually work on complex projects, quickly adapt to new technologies, and effectively collaborate with multidisciplinary teams. <br> My linguistic experience has provided me with a unique perspective on the importance of intuitive design and a seamless user experience. I am passionate about the idea of transforming complex concepts into accessible and user-friendly solutions, leveraging my creativity to create websites that are not only aesthetically pleasing but also functional and effective, thanks to the use of libraries and preprocessors like <strong>Bootstrap</strong> and <strong>SASS</strong>.</p>
+🇮🇹
+<p> <em>Sono una frontend web developer con una solida esperienza in progettazione e sviluppo di interfacce utente moderne e coinvolgenti. Ho una conoscenza approfondita di <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, oltre a una vasta esperienza nell'utilizzo di framework come <strong>React.js</strong>. Ho dimostrato capacità di lavorare su progetti complessi, adattarmi rapidamente alle nuove tecnologie e collaborare in modo efficace con team multidisciplinari. La mia esperienza linguistica mi ha fornito una prospettiva unica nel comprendere l'importanza di un design intuitivo e di un'esperienza utente fluida: mi appassiona l'idea di poter trasformare concetti complessi in soluzioni accessibili e user-friendly, mettendo in pratica la mia creatività per creare siti web che non solo siano esteticamente piacevoli, ma anche funzionali ed efficaci, grazie anche all’impiego di librerie e preprocessori come <strong>Bootstrap</strong> and <strong>SASS</strong>.</em></p>
+<hr>
+
 <p>You can reach me out here: </p>
 
 <p>💼 LinkedIn: https://www.linkedin.com/in/alice-lazzeri-6605b4102/</p>
