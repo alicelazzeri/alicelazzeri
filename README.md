@@ -29,8 +29,7 @@
 
 </div>
 
-
-
+<br>
 <p>... and still learning more! 💡✨</p>
 <hr>
 
