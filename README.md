@@ -41,4 +41,4 @@
 <p>You can reach me out here: </p>
 
 <p>💼 LinkedIn: https://www.linkedin.com/in/alice-lazzeri-6605b4102/</p>
-<p>📮 E-mail: <a href="mailto:alice.lazzeri@hotmail.it">alice.lazzeri@hotmail.it</a></p>
+<p>📮 E-mail: <a href="mailto:alice.lazzeri@hotmail.it" target="_blank">alice.lazzeri@hotmail.it</a></p>
