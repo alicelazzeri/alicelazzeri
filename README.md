@@ -2,8 +2,6 @@
 
 💾 Junior Front End Developer from Tuscany, Italy 🍇 💻
 
-📚 Currently studying UX/UI design and Back End Development 👩🏼‍💻 🎨
-
 📝 Check out my Portfolio here: https://alicelazzeri.netlify.app/ 👈🏻
 
 🚀 My skills: 
