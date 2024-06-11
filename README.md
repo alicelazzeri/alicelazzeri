@@ -18,4 +18,14 @@
 <p><em>Sono una <strong>Full Stack Developer</strong> con una solida esperienza nella progettazione e nello sviluppo di interfacce utente moderne e coinvolgenti. Ho una conoscenza approfondita di <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, oltre a una vasta esperienza nell'utilizzo di framework come <strong>React.js</strong> e <strong>Angular</strong>. Recentemente, ho ampliato le mie competenze con l'uso di <strong>Java</strong>, <strong>Spring</strong>, <strong>Spring Boot</strong>, <strong>PostgreSQL</strong> e <strong>SQL</strong>. Inoltre, ho acquisito esperienza con <strong>Maven</strong>, <strong>Hibernate</strong> e <strong>Swagger</strong> per garantire una gestione efficace dei progetti e l'integrazione delle API.</em></p>
 <p><em>Ho anche costruito siti con <strong>Joomla</strong> e <strong>SP Page Builder</strong>, garantendo una solida base CMS. Ho dimostrato capacità di lavorare su progetti complessi, adattarmi rapidamente alle nuove tecnologie e collaborare in modo efficace con team multidisciplinari. L’esperienza maturata fino ad ora mi ha fornito una prospettiva unica nel comprendere l'importanza di un design intuitivo e di un'esperienza utente fluida. Mi appassiona l'idea di poter trasformare concetti complessi in soluzioni accessibili e user-friendly, mettendo in pratica la mia creatività per creare siti web che non solo siano esteticamente piacevoli, ma anche funzionali ed efficaci, grazie anche all’impiego di librerie e preprocessori come <strong>Bootstrap</strong> e <strong>SASS</strong>.</em></p>
 <hr>
-[GitHub Stats](https://github-readme-stats.vercel.app/api?username=alicelazzeri&theme=radical)
+
+### 📊 GitHub Stats
+
+![Alice Lazzeri GitHub Stats](https://github-readme-stats.vercel.app/api?username=alicelazzeri&show_icons=true&title_color=ff75a0&icon_color=ffd700&text_color=333333&bg_color=e0c3fc&border_color=ffd700&border_width=5&line_height=24)
+
+
+
+
+
+
+
