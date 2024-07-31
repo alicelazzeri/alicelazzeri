@@ -50,7 +50,9 @@
 
 <hr>
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats and Profile Views
+
+[![](https://visitcount.itsvg.in/api?id=alicelazzeri&label=Profile%20Views&color=10&icon=5&pretty=true)](https://visitcount.itsvg.in)
 
 ![Alice Lazzeri GitHub Stats](https://github-readme-stats.vercel.app/api?username=alicelazzeri&show_icons=true&title_color=ff75a0&icon_color=ffd700&text_color=333333&bg_color=e0c3fc&border_color=ffd700&border_width=5&line_height=24)
 
