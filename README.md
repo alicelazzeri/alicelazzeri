@@ -2,7 +2,7 @@
 
 💾 Junior Full Stack Developer from Tuscany, Italy 🍇 💻
 
-📚 Currently learning more about web development on 👉🏻 ![Codecademy](https://img.shields.io/badge/Codecademy-FFF0E5?style=for-the-badge&logo=codecademy&logoColor=1F243A)
+📚 Currently learning more about web development and web design on 👉🏻 ![Codecademy](https://img.shields.io/badge/Codecademy-FFF0E5?style=for-the-badge&logo=codecademy&logoColor=1F243A) and [Learnn](https://learnn.com/?gad_source=1&gclid=Cj0KCQjwtsy1BhD7ARIsAHOi4xYReGMtxSv9pTkfdQwI9X4XokI2iujGBACpCwozRIga4xg_b13Z_0saAsJ9EALw_wcB) ✨
 
 📝 Check out my Portfolio here: https://alicelazzeri.netlify.app/ 👈🏻
 
